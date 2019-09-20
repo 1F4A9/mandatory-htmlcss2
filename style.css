@@ -1,39 +1,50 @@
 .container {
-	margin: 0 auto;
-	max-width: 1000px;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 header {
-	height: 150px;
-	border: 2px solid black;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
 }
 
 header ul li,
 h1 {
-	display: flex;
-	justify-items: center;
-	flex-wrap: wrap;
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
 }
 
 .main_head,
 .main_foot {
-	height: 400px;
-	display: flex;
-	flex-wrap: wrap;
-	align-content: flex-start;
+    height: 600px;
+    border: 2px solid black;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .main_head img {
-	height: 250px;
-	width: 200px;
+    height: 250px;
+    width: 200px;
+    display: flex;
 }
 
 .main_foot img {
-	height: 400px;
-	width: 300px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+}
+
+.main_container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 footer {
-	height: 150px;
-	border: 2px solid black;
+    height: 150px;
+    border: 2px solid black;
 }
