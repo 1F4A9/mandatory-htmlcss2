@@ -1,0 +1,39 @@
+.container {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+header {
+	height: 150px;
+	border: 2px solid black;
+}
+
+header ul li,
+h1 {
+	display: flex;
+	justify-items: center;
+	flex-wrap: wrap;
+}
+
+.main_head,
+.main_foot {
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.main_head img {
+	height: 250px;
+	width: 200px;
+}
+
+.main_foot img {
+	height: 400px;
+	width: 300px;
+}
+
+footer {
+	height: 150px;
+	border: 2px solid black;
+}
