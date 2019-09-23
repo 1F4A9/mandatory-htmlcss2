@@ -5,12 +5,8 @@ header {
 }
 
 .header_nav {
-    margin: 0 auto;
-    width: 1000px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
 }
 
 header ul,
@@ -45,13 +41,15 @@ header ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    min-width: 380px;
+    flex-direction: row;
 }
 
 .main img {
-    height: 200px;
     width: 150px;
+    display: flex;
     margin: 15px;
+    flex: 1;
+    box-shadow: 0 5px 10px rgba(35, 35, 36, 0.025), 0 15px 40px rgba(166, 173, 201, .2);
 }
 
 @media (max-width: 700px) {
@@ -59,7 +57,11 @@ header ul li a:hover {
         display: none;
     }
 
+    header {
+        justify-content: center;
+    }
+
     header h1 {
-        margin: 0 auto;
+        margin: 0px;
     }
 }
