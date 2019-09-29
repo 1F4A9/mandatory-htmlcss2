@@ -24,11 +24,9 @@ header ul li {
     margin-left: 20px;
 }
 
-header ul li a:link {
-    text-decoration: none;
-}
-
+header ul li a:link,
 header ul li a:visited {
+    text-decoration: none;
     color: white;
 }
 
